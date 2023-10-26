@@ -9,7 +9,7 @@
     height: 100vh;
 
     display: grid;
-    grid-template-columns: 1fr 4fr;
+    grid-template-columns: 220px 4fr;
     grid-template-rows: 1fr 5fr;
     grid-template-areas: 
     "sidebar header"
@@ -24,7 +24,40 @@
 .sidebar {
     grid-area: sidebar;
     background: #1992D4;
+    color: white;
 }
+
+.title-container {
+    display: flex;
+    gap: 10px;
+    padding: 15px;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.sidebar-icon {
+    height: 30px;
+}
+
+.sidebar-menu>li {
+    font-weight: 500;
+    font-size: 16px;
+
+    display: flex;
+    align-items: center;
+    padding: 5px 25px;
+    gap: 13px;
+}
+
+.sidebar-menu>li:nth-child(6) {
+    margin-bottom: 35px;
+}
+
+.menu-icon {
+    height: 18px;
+}
+
+
 
 .main-container {
     grid-area: main;
