@@ -1,0 +1,33 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+.container {
+    height: 100vh;
+
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    grid-template-rows: 1fr 5fr;
+    grid-template-areas: 
+    "sidebar header"
+    "sidebar main"
+    ;
+}
+
+.header-container {
+    grid-area: header;
+}
+
+.sidebar {
+    grid-area: sidebar;
+    background: #1992D4;
+}
+
+.main-container {
+    grid-area: main;
+     background: #E2E8F0;
+}
+
