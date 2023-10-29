@@ -11,28 +11,38 @@
 </head>
 <body>
     <div class="container">
-        <header class="header-container">
+        <div class="header-container">
             <div class="header-section">
-                <div class="search-container">
-                    <div class="search-icon">img</div>
-                    <input type="text" name="search-bar" id="search-bar" class="search-bar">
-                </div>
-                <div class="header-section">
-                    <div class="user-info">
-                        <div class="dark-mode">dark mode</div>
-                        <div class="profile-picture">profile pic</div>
-                        <p class="user-name">Morgan Oakley</p>
+                <div class="header-first-section">
+                    <div class="search-container">
+                        <img src="./assets/icons/search-outline.svg" alt="search icon" class="search-icon">
+                        <input type="text" name="search-bar" id="search-bar" class="search-bar">
                     </div>
-                    <div class="user-options">
-                        <nav>
-                            <li><a href="#">New</a></li>
-                            <li><a href="#">Upload</a></li>
-                            <li><a href="#">Share</a></li>
-                        </nav>
+                    <div class="user-greetings">
+                        <img src="./assets/icons/totoro.png" alt="user profile picture" class="user-profile-pic">
+                        <div>
+                            <p class="greetings">Hi there,</p>
+                            <p class="greetings-username">Emanuel C. (@emanu)</p>
+                        </div>
                     </div>
+                                </div>
                 </div>
+            <div class="header-section">
+                <div class="user-info">
+                    <img src="./assets/icons/moon-outline.svg" alt="dark mode icon" class="dark-mode">
+                    <img src="./assets/icons/totoro.png" alt="" class="profile-picture">
+                    <p class="user-name">Emanuel C.</p>
+                </div>
+                <nav>
+                    <ul class="user-options">
+                        <li><a href="#">New</a></li>
+                        <li><a href="#">Upload</a></li>
+                        <li><a href="#">Share</a></li>
+                    </ul> 
+                </nav>
             </div>
-        </header>
+            
+        </div>
         <aside class="sidebar">
             <div class="title-container">
                 <img src="./assets/icons/grid-outline.svg" alt="site-icon" class="sidebar-icon">
@@ -80,60 +90,63 @@
             </nav>
         </aside>
         <main class="main-container">
+            
             <div class="main-projects">
                 <h3>Your Projects</h3>
-                <div class="project-card">
-                    <h3 class="project-title">Super Cool Project</h3>
-                    <p class="projecto-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam ad iste repellendus hic, accusantium deserunt libero soluta beatae ex dignissimos earum dolorem a nihil atque esse, iusto animi necessitatibus!</p>
-                    <div class="project-icons">
-                        <div class="star-icon">⭐</div>
-                        <div class="eye-icon">👁‍🗨</div>
-                        <div class="share-icon">👓</div>
+                <div class="projects-container">
+                    <div class="project-card">
+                        <h3 class="project-title">Super Cool Project</h3>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias ullam ad iste repellendus hic, accusantium deserunt libero soluta beatae ex dignissimos earum dolorem a nihil atque esse, iusto animi necessitatibus!</p>
+                        <div class="project-icons">
+                            <div class="star-icon">⭐</div>
+                            <div class="eye-icon">👁‍🗨</div>
+                            <div class="share-icon">👓</div>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <h3 class="project-title">Less Cool Project</h3>
-                    <p class="projecto-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit unde rem culpa qui explicabo architecto sint expedita porro quidem adipisci, amet veritatis suscipit deserunt, magnam officia reprehenderit aperiam laborum placeat.</p>
-                    <div class="project-icons">
-                        <div class="star-icon">⭐</div>
-                        <div class="eye-icon">👁‍🗨</div>
-                        <div class="share-icon">👓</div>
+                    <div class="project-card">
+                        <h3 class="project-title">Less Cool Project</h3>
+                        <p class="project-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Sit unde rem culpa qui explicabo architecto sint expedita porro quidem adipisci, amet veritatis suscipit deserunt, magnam officia reprehenderit aperiam laborum placeat.</p>
+                        <div class="project-icons">
+                            <div class="star-icon">⭐</div>
+                            <div class="eye-icon">👁‍🗨</div>
+                            <div class="share-icon">👓</div>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <h3 class="project-title">Impossible App</h3>
-                    <p class="projecto-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab, veniam quos possimus ullam consectetur cumque molestias architecto nesciunt quas quaerat voluptatibus atque harum! Explicabo iusto magni pariatur? Explicabo, corporis!</p>
-                    <div class="project-icons">
-                        <div class="star-icon">⭐</div>
-                        <div class="eye-icon">👁‍🗨</div>
-                        <div class="share-icon">👓</div>
+                    <div class="project-card">
+                        <h3 class="project-title">Impossible App</h3>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Beatae ab, veniam quos possimus ullam consectetur cumque molestias architecto nesciunt quas quaerat voluptatibus atque harum! Explicabo iusto magni pariatur? Explicabo, corporis!</p>
+                        <div class="project-icons">
+                            <div class="star-icon">⭐</div>
+                            <div class="eye-icon">👁‍🗨</div>
+                            <div class="share-icon">👓</div>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <h3 class="project-title">Easy Peasy App</h3>
-                    <p class="projecto-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores enim, doloribus sequi, commodi aut nam perferendis magnam possimus soluta qui ut est, distinctio inventore ea repellendus facilis. Fugit, dolorum maiores!</p>
-                    <div class="project-icons">
-                        <div class="star-icon">⭐</div>
-                        <div class="eye-icon">👁‍🗨</div>
-                        <div class="share-icon">👓</div>
+                    <div class="project-card">
+                        <h3 class="project-title">Easy Peasy App</h3>
+                        <p class="project-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores enim, doloribus sequi, commodi aut nam perferendis magnam possimus soluta qui ut est, distinctio inventore ea repellendus facilis. Fugit, dolorum maiores!</p>
+                        <div class="project-icons">
+                            <div class="star-icon">⭐</div>
+                            <div class="eye-icon">👁‍🗨</div>
+                            <div class="share-icon">👓</div>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <h3 class="project-title">Ad Blocker</h3>
-                    <p class="projecto-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur natus eos enim quibusdam pariatur asperiores aut voluptatibus beatae. Suscipit illum modi quo voluptate minima ab aspernatur temporibus quis reprehenderit quos.</p>
-                    <div class="project-icons">
-                        <div class="star-icon">⭐</div>
-                        <div class="eye-icon">👁‍🗨</div>
-                        <div class="share-icon">👓</div>
+                    <div class="project-card">
+                        <h3 class="project-title">Ad Blocker</h3>
+                        <p class="project-description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur natus eos enim quibusdam pariatur asperiores aut voluptatibus beatae. Suscipit illum modi quo voluptate minima ab aspernatur temporibus quis reprehenderit quos.</p>
+                        <div class="project-icons">
+                            <div class="star-icon">⭐</div>
+                            <div class="eye-icon">👁‍🗨</div>
+                            <div class="share-icon">👓</div>
+                        </div>
                     </div>
-                </div>
-                <div class="project-card">
-                    <h3 class="project-title">Money Maker</h3>
-                    <p class="projecto-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus totam minima repellat culpa ducimus aperiam aliquid voluptatibus quia optio, nulla, quos incidunt tempora rerum perspiciatis beatae nostrum? Libero, quia!</p>
-                    <div class="project-icons">
-                        <div class="star-icon">⭐</div>
-                        <div class="eye-icon">👁‍🗨</div>
-                        <div class="share-icon">👓</div>
+                    <div class="project-card">
+                        <h3 class="project-title">Money Maker</h3>
+                        <p class="project-description">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Illo necessitatibus totam minima repellat culpa ducimus aperiam aliquid voluptatibus quia optio, nulla, quos incidunt tempora rerum perspiciatis beatae nostrum? Libero, quia!</p>
+                        <div class="project-icons">
+                            <div class="star-icon">⭐</div>
+                            <div class="eye-icon">👁‍🗨</div>
+                            <div class="share-icon">👓</div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -142,42 +155,42 @@
                     <ul class="announcements-list">
                         <li>
                             <p class="announcement-title">Site Maintenance</p>
-                            <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat tempore non blanditiis quae accusamus illo tempora esse repudiandae mollitia temporibus ducimus culpa, numquam animi ipsa sequi adipisci atque laudantium!</p>
+                            <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid quaerat tempore non blanditiis quae accusamus</p>
                         </li>
                         <li>
                             <p class="announcement-title">Community Share Day</p>
-                            <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quam quae atque facere enim, fugiat iure necessitatibus ex iusto perferendis assumenda accusantium eaque excepturi ad, odio aliquid dolore nemo ipsam soluta?</p>
+                            <p class="announcement-description">Lorem ipsum dolor sit amet consectetur adipisicing elit</p>
                         </li>
                         <li>
                             <p class="announcement-title">Updated Privacy Policy</p>
-                            <p class="announcement-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil voluptatibus soluta tenetur quae quisquam deserunt, itaque nesciunt cupiditate dolor deleniti veniam qui, dignissimos in architecto odio! Reprehenderit perferendis aspernatur fugit.</p>
+                            <p class="announcement-description">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nihil voluptatibus soluta tenetur quae quisquam deserunt</p>
                         </li>
                     </ul>
                 <h3>Trending</h3>
                 <ul class="trending-list">
                     <li>
-                        <div class="trending-icon">icon</div>
+                        <img src="./assets/icons/goku-profile-picture.png" alt="animal crossing profile picture" class="trending-icon">
                         <div class="trending-user-info">
                             <p class="trending-username">@tegan</p>
                             <p class="trending-user-description">World Peace Builder</p>
                         </div>
                     </li>
                     <li>
-                        <div class="trending-icon">icon</div>
+                        <img src="./assets/icons/girl-profile-pic.jpg" alt="girl profile picture" class="trending-icon">
                         <div class="trending-user-info">
                             <p class="trending-username">@morgan</p>
                             <p class="trending-user-description">Super Cool Project</p>
                         </div>
                     </li>
                     <li>
-                        <div class="trending-icon">icon</div>
+                        <img src="./assets/icons/tom-profile-picture.png" alt="tom profile picture" class="trending-icon">
                         <div class="trending-user-info">
                             <p class="trending-username">@kendall</p>
                             <p class="trending-user-description">Life Changing App</p>
                         </div>
                     </li>
                     <li>
-                        <div class="trending-icon">icon</div>
+                        <img src="./assets/icons/jerry-profile-picture.jpg" alt="jerry profile picture'" class="trending-icon">
                         <div class="trending-user-info">
                             <p class="trending-username">@alex</p>
                             <p class="trending-user-description">No Traffic Maker</p>
