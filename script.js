@@ -1,6 +1,8 @@
 const darkModeBtn = document.querySelector('.dark-mode');
 let darkModeOn = false;
 
+
+
 darkModeBtn.addEventListener('click', () => {
     let rootSelector = document.querySelector(':root');
     if(darkModeOn) {
